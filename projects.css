@@ -7,6 +7,11 @@ body {
     padding-bottom: 150px;
     }
 
+.logo {
+    padding-top: 15px;
+    padding-left:  10px;
+    }
+
 .topnav {
     text-align: right;
     font-size: 10px;
@@ -37,39 +42,15 @@ body {
     color: white;
     }
 
-.logo {
-    padding-top: 100px;
-        }
 
-
-.name {
+.pagename {
     font-size: 20px;
     text-transform: uppercase;
     color: black;
     letter-spacing: 5px;
     font-weight: bolder;
-    padding-top: 15px;
+    margin-top: 50px;
     }
-
-.field {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #6D6D6C;
-    letter-spacing: 3px;
-    padding-top: 8px;
-    padding-bottom: 30px;
-    }
-
-.fablab {
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight:bold;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    }
-
-
 .projectContainer {
     display: flex;
     flex-wrap: wrap;
@@ -113,15 +94,3 @@ body {
     background-color: whitesmoke; 
     color: black!important; 
     }
-
-
-
-.footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: black;
-    width: 100%;
-    height: 150px;
-    }
-
