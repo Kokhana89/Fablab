@@ -1,0 +1,95 @@
+html {
+    position: relative;  
+}
+
+body {
+    font-family: Futura, Futura, sans-serif;
+    padding-bottom: 150px;
+    }
+
+.logo {
+    padding-top: 15px;
+    padding-left:  10px;
+    }
+
+.topnav {
+    text-align: right;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #6D6D6C;
+    position: absolute;
+    top: 30px;
+    right: 5vw;
+   }
+
+.button {
+    background-color: white; 
+    color: dimgrey;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    }
+
+.button:hover {
+    background-color: black; /* Black */
+    color: white;
+    }
+
+
+.pagename {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    margin-top: 50px;
+    }
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    }
+
+
+.heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight:normal;
+    text-align: left;
+    margin-top: 40px;
+    width: 833px;
+    }
+    
+.textbody {
+    font-size: 18px;
+    font-weight:normal;
+    margin-top: 6px;
+    width: 833px;
+    text-align: left;
+    }
+
+.number {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight:bold;
+    margin-top: 20px;
+    text-align: left;
+    width: 833px;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
+.video {
+    margin-top: 20px;
+}
