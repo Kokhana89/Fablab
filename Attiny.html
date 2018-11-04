@@ -1,0 +1,90 @@
+<html>
+    <head> 
+        <title>Programming Attiny. Week 3</title>
+        <link rel="stylesheet" href="Attiny.css">
+    </head>
+    
+    
+    <body>
+        
+        <nav class="topnav">
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="projects.html">Projects</a>
+        </nav>
+        
+        <div class="logo"><a href="index.html"><img src="Logo.svg" width="5%"></a>
+        </div>
+        
+        <div class="pagename" align="center"> Programming ATtiny with Arduino
+        </div>
+                
+        <div class="container" align="center">
+            
+            <div class="textbody">ATtiny85 is smallest microcontroller in ATMEL’s AVR family having less number of pins. It has 8 pins in total in which 6 pins are for programmable Input/Output. It was developed for low power applications such as (battery operated applications).</div>
+            <div class="photo"><img src="attiny/attiny45-85.png"></div>
+                        
+            <div class="number">1</div> 
+            <div class="textbody">To program the ATtiny85 we need to first set Arduino Uno in ISP mode. 
+            </div>
+            <div class="photo"><img src="attiny/1.jpg"></div>
+            
+            <div class="number">2</div> 
+            <div class="textbody">By default Arduino IDE doesn't support ATtiny85 so we should add ATtiny boards to Arduino IDE. At first you should go to File/Preferences and copy this link: https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+            </div>
+            <div class="photo"><img src="attiny/2.jpg"></div>
+            
+            <div class="number">3</div> 
+            <div class="textbody">After that you have to go to Board manager and find there Attiny and install it.
+            </div>
+            <div class="photo"><img src="attiny/3.jpg"></div>
+            <div class="photo"><img src="attiny/4.jpg"></div>
+            <div class="textbody">Then you will be able to see it in the end of the list. You have to choose it as on the photo.
+            </div>
+            <div class="photo"><img src="attiny/5.jpg"></div>
+           
+            <div class="number">4</div> 
+            <div class="textbody">Now you have to connect you ATtiny to Arduino using breadboard.
+            </div>
+            <div class="photo"><img src="attiny/6.jpg"></div>
+            
+            <div class="number">5</div> 
+            <div class="textbody">Choose correct processor, clock and programmer as on next photos.
+            </div>
+            <div class="photo"><img src="attiny/8.jpg"></div>
+            <div class="photo"><img src="attiny/9.jpg"></div>
+            <div class="photo"><img src="attiny/10.jpg"></div>
+            <div class="textbody">When everything is correct you have to Burn Bootloader.
+            </div>
+            <div class="photo"><img src="attiny/11.jpg"></div>
+            <div class="textbody">Now you can disconnect your Arduino from the computer. It is better to connect it to computer only when you need to download something there, in other cases it is safer to keep it disconnected.
+            </div>
+            
+            <div class="number">6</div> 
+            <div class="textbody">Next step is creating your code. We will programm tone melody with LED blinking.  
+            </div>
+            <div class="photo"><img src="attiny/7.jpg"></div>
+            <div class="textbody">In a new window erase everything and paste your code. For Jingle Bells melody you can use <a href="attiny/jingle%20bells.txt">this code</a>. Then you have to change pins for LED and speaker for those you are going to use.
+            </div>
+            <div class="photo"><img src="attiny/12.jpg"></div>
+            
+            <div class="number">7</div> 
+            <div class="textbody">Now you need to connect LED and speaker to your ATtiny to be able to see your result. LED we connected to the pin 3 trough resistor and Speaker to pin 4.
+            </div>
+            <div class="photo"><img src="attiny/14.jpg"></div>
+            <div class="photo"><img src="attiny/16.jpg"></div>
+            
+            <div class="number">8</div> 
+            <div class="textbody">When everything is ready you have to verify your code. If it is ok then connect your Arduino to your computer and  upload code to ATtiny.  
+            </div>
+            <div class="photo"><img src="attiny/15.jpg"></div>
+            <div class="photo"><img src="attiny/13.jpg"></div>
+             
+            <div class="number">9</div> 
+            <div class="textbody">Final result.  
+            </div>
+            <iframe class="video" width="833" height="556" src="https://www.youtube.com/embed/oHSpACRx2Eo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+            
+        </div>
+    </body>
+</html>
