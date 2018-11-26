@@ -65,8 +65,15 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight:bold;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    }
+
+.uni {
+    font-size: 15px;
+    font-weight:normal;
+    letter-spacing: 0,5px;
+    color: darkgray;
     }
 
 
@@ -75,6 +82,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 50px;
+    padding-top: 20px;
     }
 
 .project {
@@ -125,3 +133,18 @@ body {
     height: 150px;
     }
 
+.footertext {
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight:normal;
+    color: darkgray;
+    text-align: center;
+    }
+
+.footertext1 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight:normal;
+    color: darkgray;
+    text-align: center;
+    }

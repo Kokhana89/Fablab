@@ -50,6 +50,7 @@ body {
     letter-spacing: 5px;
     font-weight: bolder;
     margin-top: 50px;
+    margin-bottom: 20px;
     }
 
 .container {
@@ -89,4 +90,37 @@ body {
 
 .video {
     margin-top: 20px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    font-size: 14px;
+    font-weight:normal;
+    color: darkgray;
+    text-align: center;
+    }
+
+.footertext {
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight:normal;
+    color: darkgray;
+    text-align: center;
+    }
+
+.footertext1 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight:normal;
+    color: darkgray;
+    text-align: center;
+    }
+
+.logofooter {
+    align-self: 
 }
