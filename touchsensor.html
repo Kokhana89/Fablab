@@ -1,0 +1,80 @@
+<html>
+    <head> 
+        <title>Wearables</title>
+        <link rel="stylesheet" href="styles%20projects.css">
+    </head>
+    
+    
+    <body>
+        
+        <nav class="topnav">
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="projects.html">Projects</a>
+        </nav>
+        
+        <div class="logo"><a href="index.html"><img src="Logo.svg" width="5%"></a>
+        </div>
+        
+        <div class="pagename" align="center"> Wearables
+        </div>
+        <div class="heading" align="center"> Making capacitive touch sensor with AtTiny
+        </div>
+                
+        <div class="container" align="center">
+                                    
+            <div class="number">1</div> 
+            <div class="textbody">My idea was to make capacitive sensor which will reacts on touch. As an output I chose simple LED light when I touch sensor. As a sensor I used embroidery with conductive thread.
+            </div>
+            
+            <div class="number">2</div> 
+            <div class="textbody">At first I made a circuit scheme in Eagle and exported file in .dxf format.
+            </div>
+            <div class="photo"><img src="touchsensor/1.jpg"></div>
+            <div class="photo"><img src="touchsensor/2.jpg"></div>
+            
+            <div class="number">3</div> 
+            <div class="textbody">Then I opened my file in Illustrator and prepared it for embroidering.
+            </div>
+            <div class="photo"><img src="touchsensor/3.jpg"></div>
+            
+            <div class="number">4</div> 
+            <div class="textbody">Next step - embroidering. For this you need to export file from Illustrator in .wmf format or if this format will not work try to export .png. Then prepare file in a special software.
+            </div>
+            <div class="photo"><img src="touchsensor/4.jpg"></div>
+            <div class="textbody">When file is ready, export it on the USB stick. And continue with embroidery machine.
+            </div>
+            <div class="photo"><img src="touchsensor/5.jpg"></div>
+            <div class="photo"><img src="touchsensor/5-1.jpg"></div>
+            <div class="photo"><img src="touchsensor/5-2.jpg"></div>
+            <div class="photo"><img src="touchsensor/5-3.jpg"></div>
+            <div class="photo"><img src="touchsensor/5-4.jpg"></div>
+            <div class="textbody">When it is ready you have to check with multimeter if there are no connection between pathes with might lead to short circuit. Check both front and back side.
+            </div>
+            <div class="photo"><img src="touchsensor/6.jpg"></div>
+            <div class="photo"><img src="touchsensor/7.jpg"></div>
+            
+            <div class="number">5</div> 
+            <div class="textbody">Preparing AtTiny with Arduino. First, you need a code. I used this one <a href="touchsensor/touchsensor.ino">link.</a> You can easily find on the internet codes for different tasks. When you get one you need to test it first with Arduino.
+            </div>
+            <div class="photo"><img src="touchsensor/8.jpg"></div>
+            <div class="photo"><img src="touchsensor/9.jpg"></div>
+            
+            <div class="number">6</div> 
+            <div class="textbody">Next step: programming AtTiny with Arduino. What you need to do: <p> 1. Set Arduino as ISP;</p> <p> 2. Connect Attiny to Arduino;</p> <p>3. Burn Bootloader;</p> <p>4. Upload code to AtTiny.</p>  In this article you can find detailed information about mentioned steps <a href="https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829">https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829</a> 
+            </div>
+                
+            <div class="number">7</div> 
+            <div class="textbody">Final result</div>
+            <div class="photo"><img src="touchsensor/10.jpg"></div>
+            <iframe class="video" width="833" height="556" src="https://www.youtube.com/embed/i4QKlBBYtGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="footer">
+            <!--<div class="logofooter" align=left><img src="Logowhite-01.svg" width="5%"></div>-->
+            <div class="footertext">Rhine-Waal University of Applied Sciences FabLab Kamp-Lintfort</div>
+            <div class="footertext1">Communication Design Project Winter Semester 2018/2019</div>
+            
+        </div>
+        
+    </body>
+</html>
