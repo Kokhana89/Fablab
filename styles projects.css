@@ -60,16 +60,17 @@ body {
 
 
 .heading {
+    margin-top: 40px;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight:normal;
+    font-weight:bold;
     }
     
 .textbody {
     font-size: 18px;
     font-weight:normal;
-    margin-top: 25px;
+    margin-top: 10px;
     width: 833px;
     text-align: left;
     }
